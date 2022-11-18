@@ -20,3 +20,4 @@ v,err = integrate.quad(f1, a, b) #Перевірка
 if abs (trap(f1,a, b, 2*n) -trap(f1, a, b, n))/3. <= eps:
     print("Метод трапеції: ",round (trap(f1, a, b, n), 5))
 print("Перевірка методу трапеції = ",round(v, 5))
+
